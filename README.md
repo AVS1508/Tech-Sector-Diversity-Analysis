@@ -225,18 +225,18 @@ Notes:
     <center>
         <br/>
         <div style="display:flex">
-            <img width="60%" src="./Plots:Charts/Discrete%20Data/Histogram%20of%20Sex%20Ratio.png">
-            <img width="40%" src="./Plots:Charts/Discrete%20Data/Plot%20of%20Sex%20Ratio.png">
+            <img width="45%" src="./Plots:Charts/Discrete%20Data/Histogram%20of%20Sex%20Ratio.png">
+            <img width="30%" src="./Plots:Charts/Discrete%20Data/Plot%20of%20Sex%20Ratio.png">
             </div>
         <br/>
         <div style="display:flex">
-            <img width="60%" src="./Plots:Charts/Discrete%20Data/Histogram%20of%20Non-White%20Ratio.png">
-            <img width="40%" src="./Plots:Charts/Discrete%20Data/Plot%20of%20Non-White%20Ratio.png">
+            <img width="45%" src="./Plots:Charts/Discrete%20Data/Histogram%20of%20Non-White%20Ratio.png">
+            <img width="30%" src="./Plots:Charts/Discrete%20Data/Plot%20of%20Non-White%20Ratio.png">
         </div>
         <br/>
         <div style="display:flex">
-            <img width="60%" src="./Plots:Charts/Discrete%20Data/Histogram%20of%20Blue-Collar%20Jobs%20Ratio.png">
-            <img width="40%" src="./Plots:Charts/Discrete%20Data/Plot%20of%20Blue-Collar%20Jobs%20Ratio.png">
+            <img width="45%" src="./Plots:Charts/Discrete%20Data/Histogram%20of%20Blue-Collar%20Jobs%20Ratio.png">
+            <img width="30%" src="./Plots:Charts/Discrete%20Data/Plot%20of%20Blue-Collar%20Jobs%20Ratio.png">
         </div>
         <br/>
     </center>
