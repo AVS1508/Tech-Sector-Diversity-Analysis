@@ -1,6 +1,5 @@
 <center>
 <h2>Tech Sector Employment Diversity in Silicon Valley</h2>
-<h4>CICS 197R Final Portfolio Project</h4>
 </center>
 
 <strong>AIM:</strong> To understand workplace diversity in the technology sector through the lens of an observational study of employment statistics centered around the Silicon Valley tech companies.
