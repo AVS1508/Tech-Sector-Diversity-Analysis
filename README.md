@@ -175,40 +175,40 @@ Notes:
 <li>Categorical Data</li>
     <center>
         <br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Company%20Diversity%20Pie%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Company%20Diversity%20Pie%20Chart.png"><br/>
         Figure 1: Company Diversity Pie Chart
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Company%20Diversity%20Table.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Company%20Diversity%20Table.png"><br/>
         Table 1: Company Diversity Table
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Gender%20Diversity%20Pie%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Gender%20Diversity%20Pie%20Chart.png"><br/>
         Figure 2: Gender Diversity Pie Chart
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Gender%20Diversity%20Table.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Gender%20Diversity%20Table.png"><br/>
         Table 2: Gender Diversity Table
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Racial%20Diversity%20Pie%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Racial%20Diversity%20Pie%20Chart.png"><br/>
         Figure 3: Racial Diversity Pie Chart
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Racial%20Diversity%20Table.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Racial%20Diversity%20Table.png"><br/>
         Table 3: Racial Diversity Table
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Job%20Role%20Diversity%20Pie%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Job%20Role%20Diversity%20Pie%20Chart.png"><br/>
         Figure 4: Job Diversity Pie Chart
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Job%20Role%20Diversity%20Table.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Job%20Role%20Diversity%20Table.png"><br/>
         Table 4: Job Diversity Table
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Company%20Diversity%20Bar%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Company%20Diversity%20Bar%20Chart.png"><br/>
         Figure 5: Bar Chart for Company Diversity
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Gender%20Diversity%20Bar%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Gender%20Diversity%20Bar%20Chart.png"><br/>
         Figure 6: Bar Chart for Gender Diversity
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Racial%20Diversity%20Bar%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Racial%20Diversity%20Bar%20Chart.png"><br/>
         Figure 7: Bar Chart for Racial Diversity
         <br/><br/>
-        <img width="80%" src="./Plots:Charts/Categorical%20Data/Job%20Role%20Diversity%20Bar%20Chart.png">
+        <img width="80%" src="./Plots:Charts/Categorical%20Data/Job%20Role%20Diversity%20Bar%20Chart.png"><br/>
         Figure 8: Bar Chart for Job Role Diversity
         <br/><br/>
     </center>
