@@ -13,14 +13,15 @@
 # for decision trees
 #' @import plotly
 # for creating graphs
+#' @import withr
+# for accessing directories 
 
 '%notin%' <-
   Negate('%in%') # operator definition for "not in" a vector
 
 ### Loading the dataset
-setwd("~/Documents/@University/#2 2020 Spring/CICS 197R/Final Project") # go to containing directory
-divData <-
-  read.csv("Data/Diversity-Data-Silicon-Valley-2016.csv") # load the .csv file
+with_dir("~/Documents/@University/#2 2020 Spring/CICS 197R/Final Project", divData <-
+  read.csv("Data/Diversity-Data-Silicon-Valley-2016.csv")) # go to containing directory and load the .csv file
 
 ### Viewing the data
 
