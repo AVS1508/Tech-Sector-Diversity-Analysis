@@ -1,12 +1,12 @@
 ###---START---###
 
 ### Importing required libraries
-require(data.table) # for using the data.table structure
-require(ggplot2) # for creating graphs
-require(varhandle) # for using unfactor() method
-require(plyr) # for using mapvalues() method
-require(party) # for decision trees
-require(plotly) # for creating graphs
+library(data.table) # for using the data.table structure
+library(ggplot2) # for creating graphs
+library(varhandle) # for using unfactor() method
+library(plyr) # for using mapvalues() method
+library(party) # for decision trees
+library(plotly) # for creating graphs
 
 '%notin%' <-
   Negate('%in%') # operator definition for "not in" a vector
@@ -166,7 +166,7 @@ divData_raceCount <-
   aggregate(count ~ race, data = divData, FUN = sum)[c(1:4, 7, 5, 8, 6),] # create a data.frame to analyse the aggregation of count and race (with some order changes)
 
 rownames(divData_raceCount) <-
-  1:nrow(divData_raceCount) # revise the data.frame's row numbering
+  seq_len(nrow(divData_raceCount)) # revise the data.frame's row numbering
 
 divData_genderCount <-
   aggregate(count ~ gender, data = divData, FUN = sum) # create a data.frame to analyse the aggregation of count and gender
@@ -216,32 +216,32 @@ divData_jobCount$labels <-
 plot_ly(
   divData_companyCount,
   type = 'pie',
-  labels = ~ labels[1:nrow(divData_companyCount)],
-  values = ~ percent[1:nrow(divData_companyCount)],
+  labels = ~ labels[seq_len(nrow(divData_companyCount))],
+  values = ~ percent[seq_len(nrow(divData_companyCount))],
   textposition = 'outside'
 ) %>% layout(uniformtext = list(minsize = 20, mode = 'hide')) # plot a pie chart for the company and count data
 
 plot_ly(
   divData_raceCount,
   type = 'pie',
-  labels = ~ labels[1:nrow(divData_raceCount) - 1],
-  values = ~ percent[1:nrow(divData_raceCount) - 1],
+  labels = ~ labels[seq_len(nrow(divData_raceCount)) - 1],
+  values = ~ percent[seq_len(nrow(divData_raceCount)) - 1],
   textposition = 'outside'
 ) %>% layout(uniformtext = list(minsize = 20, mode = 'hide')) # plot a pie chart for the race and count data
 
 plot_ly(
   divData_genderCount,
   type = 'pie',
-  labels = ~ labels[1:nrow(divData_genderCount) - 1],
-  values = ~ percent[1:nrow(divData_genderCount) - 1],
+  labels = ~ labels[seq_len(nrow(divData_genderCount)) - 1],
+  values = ~ percent[seq_len(nrow(divData_genderCount)) - 1],
   textposition = 'outside'
 ) %>% layout(uniformtext = list(minsize = 20, mode = 'hide')) # plot a pie chart for the gender and count data
 
 plot_ly(
   divData_jobCount,
   type = 'pie',
-  labels = ~ labels[1:nrow(divData_jobCount) - 1],
-  values = ~ percent[1:nrow(divData_jobCount) - 1],
+  labels = ~ labels[seq_len(nrow(divData_jobCount)) - 1],
+  values = ~ percent[seq_len(nrow(divData_jobCount)) - 1],
   textposition = 'outside'
 ) %>% layout(uniformtext = list(minsize = 20, mode = 'hide')) # plot a pie chart for the job and count data
 
