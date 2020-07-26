@@ -1,12 +1,18 @@
 ###---START---###
 
 ### Importing required libraries
-library(data.table) # for using the data.table structure
-library(ggplot2) # for creating graphs
-library(varhandle) # for using unfactor() method
-library(plyr) # for using mapvalues() method
-library(party) # for decision trees
-library(plotly) # for creating graphs
+#' @import library(data.table) 
+#' # for using the data.table structure
+#' @import ggplot2
+# for creating graphs
+#' @import varhandle
+# for using unfactor() method
+#' @import plyr
+# for using mapvalues() method
+#' @import party
+# for decision trees
+#' @import plotly
+# for creating graphs
 
 '%notin%' <-
   Negate('%in%') # operator definition for "not in" a vector
